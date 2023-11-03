@@ -19,10 +19,10 @@ double WaktuTempuh;
 
 JarakTempuh = Double.parseDouble(Jaraktempuh);
 WaktuTempuh = Double.parseDouble(Waktutempuh);
-Terakhir kita ubah rumus matematika dari bunga tunggal ke bentuk bahasa pemrograman
+
 double Kecepatan = JarakTempuh/WaktuTempuh;
 System.out.println("Kecepatan : "+ Kecepatan);
-Kemudian buat batas
+
 int kecepatan = 40;
 if (kecepatan > (threshold+1)) {
 System.out.print(String.format("kecepatan : %d lebih dari: %d maka laju kendaraan cepat", kecepatan, threshold));
